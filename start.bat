@@ -1,8 +1,8 @@
 @echo off
-:: start.bat — Start all NIDS services on Windows
+:: start.bat — Start all Threat-IQ services on Windows
 
 echo.
-echo 🛡️  NIDS Startup Script (Windows)
+echo 🛡️  Threat-IQ Startup Script (Windows)
 echo ======================================
 echo.
 

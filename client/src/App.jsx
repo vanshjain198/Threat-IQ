@@ -159,7 +159,7 @@ function openPrintableReport({ stats, logs, history, demoStatus }) {
   const html = `
     <html>
       <head>
-        <title>Threat Lens Report</title>
+        <title>Threat-IQ Report</title>
         <style>
           body { font-family: Arial, sans-serif; padding: 24px; color: #111827; }
           h1, h2 { margin: 0 0 12px; }
@@ -174,7 +174,7 @@ function openPrintableReport({ stats, logs, history, demoStatus }) {
         </style>
       </head>
       <body>
-        <h1>Threat Lens Security Analysis Report</h1>
+        <h1>Threat-IQ Security Analysis Report</h1>
         <div class="meta">Generated: ${escapeHtml(new Date().toLocaleString())}</div>
         <div class="meta">Storage: ${escapeHtml((stats?.storage || "unknown").toUpperCase())} | Demo mode: ${escapeHtml(demoStatus?.running ? "RUNNING" : "IDLE")}</div>
         <div class="grid">
@@ -895,7 +895,7 @@ export default function App() {
               color: "var(--accent)", letterSpacing: 3, textTransform: "uppercase",
               lineHeight: 1, textShadow: "0 0 20px rgba(0,212,255,0.4)",
             }}>
-              Threat Lens
+              Threat-IQ
             </div>
             <div style={{ fontSize: 9, color: "var(--text-3)", letterSpacing: 2 }}>
               NETWORK INTRUSION DETECTION SYSTEM · AI-POWERED
@@ -1104,7 +1104,7 @@ export default function App() {
           flexWrap: "wrap", gap: 8,
         }}>
           <span>
-            Threat Lens v1.1 · XGBoost + Isolation Forest · NSL-KDD Dataset
+            Threat-IQ v1.1 · XGBoost + Isolation Forest · NSL-KDD Dataset
           </span>
           <span style={{ display: "flex", gap: 16, alignItems: "center" }}>
             <span>STORAGE: {stats?.storage?.toUpperCase() || "—"}</span>

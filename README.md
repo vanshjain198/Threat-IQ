@@ -1,4 +1,4 @@
-# 🛡️ AI-Based Network Intrusion Detection System (NIDS)
+# 🛡️ Threat-IQ — AI-Based Network Intrusion Detection System (NIDS)
 
 A production-ready NIDS that captures live network packets, classifies traffic
 using ML models (XGBoost, Random Forest, Isolation Forest), and displays
@@ -9,7 +9,7 @@ real-time results on a dark-themed React dashboard.
 ## 🌐 Live Demo
 
 Experience the React Dashboard interface in action:
-👉 **[Threat Lens Live Demo](https://threat-lens-lovat.vercel.app/)**
+👉 **[Threat-IQ Live Demo](https://threat-lens-lovat.vercel.app/)**
 
 > [!NOTE]
 > * **Backend Wake-Up Time**: Please wait 1 to 2 minutes when first loading the demo. The backend services are hosted on a free Render tier and may take a moment to spin up if they have gone idle.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# start.sh — Start all NIDS services
+# start.sh — Start all Threat-IQ services
 # Usage: ./start.sh
 
 set -e
@@ -11,7 +11,7 @@ if [ -x "$ROOT/.venv/bin/python" ]; then
 fi
 
 echo ""
-echo "🛡️  NIDS Startup Script"
+echo "🛡️  Threat-IQ Startup Script"
 echo "══════════════════════════════════════"
 echo ""
 
