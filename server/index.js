@@ -54,7 +54,13 @@ app.use(cors({
   origin(origin, callback) {
     if (!origin) return callback(null, true);
     const cleanedOrigin = origin.trim().replace(/\/$/, "");
-    if (allowedOrigins.includes(cleanedOrigin)) return callback(null, true);
+    if (
+      allowedOrigins.includes("*") ||
+      allowedOrigins.includes(cleanedOrigin) ||
+      cleanedOrigin.endsWith(".vercel.app")
+    ) {
+      return callback(null, true);
+    }
     console.warn(`[CORS Blocked] Browser origin "${origin}" is not allowed. Configured CORS_ALLOWED_ORIGINS: [${allowedOrigins.join(", ")}]`);
     return callback(new Error("Origin not allowed by CORS"));
   },
