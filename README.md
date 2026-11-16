@@ -537,6 +537,16 @@ Live packet capture requires elevated privileges:
 - `chart.js` + `react-chartjs-2` — Data visualization
 - `vite` — Build tool
 
-## License
+## 👨‍💻 Author
+
+**Vansh**
+- **GitHub**: [@vanshjain198](https://github.com/vanshjain198)
+- **Repository**: [Threat-IQ](https://github.com/vanshjain198/Threat-IQ)
+- **Live Demo**: [threat-iq-ashen.vercel.app](https://threat-iq-ashen.vercel.app)
+- **Cloud API**: [threat-iq-backend.onrender.com](https://threat-iq-backend.onrender.com)
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
