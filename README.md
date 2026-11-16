@@ -9,7 +9,7 @@ real-time results on a dark-themed React dashboard.
 ## 🌐 Live Demo
 
 Experience the React Dashboard interface in action:
-👉 **[Threat-IQ Live Demo](https://threat-lens-lovat.vercel.app/)**
+👉 **[Threat-IQ Live Demo](https://threat-iq-ashen.vercel.app)**
 
 > [!NOTE]
 > * **Backend Wake-Up Time**: Please wait 1 to 2 minutes when first loading the demo. The backend services are hosted on a free Render tier and may take a moment to spin up if they have gone idle.
