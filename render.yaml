@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: nids-ml-service
+    name: threat-iq-ml-service
     runtime: python
     plan: free
     rootDir: ml-service
@@ -12,7 +12,7 @@ services:
         value: 3.13.9
 
   - type: web
-    name: nids-backend
+    name: threat-iq-backend
     runtime: node
     plan: free
     rootDir: server
